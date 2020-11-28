@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+}
+
+/* PARALLAX EFFECT */
+.parallax {
+  background: url("./bg.jpg") fixed 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.parallax-inner {
+  padding-top: 40vh;
+  padding-bottom: 52vh;
+}
+
+.parallax-inner .titles h1 {
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.parallax-inner .titles h4 {
+  font-weight: lighter;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.titles {
+  margin-left: 10vw;
+}
+
+.page-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-container h1 {
+}
